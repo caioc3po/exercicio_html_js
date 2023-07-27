@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <form id="form-numeros">
+            <h1>Formulário</h1>
+            <h2>Número 1:</h2>
+            <input id="numero1" type="number"></input>
+            <h2>Número 2:</h2>
+            <input id="numero2" type="number"></input> <br />
+            <button id="btn-send" type="submit">Enviar</button>
+        </form>
+        <div class="error">
+            <img src="https://static.vecteezy.com/system/resources/previews/011/148/562/non_2x/right-and-wrong-vector-design-illustration-isolated-on-transparent-background-free-png.png" alt="Imagem Errado">
+            <p>
+                Erro: <br />O número 2 se encontra menor que o numero 1
+            </p>
+        </div>
+        <div class="sucess">
+            <img src="https://cdn.pixabay.com/photo/2013/07/13/10/48/check-157822_1280.png" alt="Imagem Certo">
+            <p>
+                Sucesso!
+            </p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

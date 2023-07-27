@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: rgba(0, 155, 100, 0.2)
+}
+
+.container{ 
+    display: flex;
+    border-radius: 50px;
+    border: 10px solid rgb(109, 180, 180);
+    padding: 50px 100px 100px 40px;
+    margin: 150px auto;
+    max-width: 640px;
+    width: 100%;
+    background-color: rgba(0, 155, 0, 0.7);
+}
+
+form {
+    display: block;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 40px
+}
+
+input,
+h2  {
+    margin-bottom: 15px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: normal;
+    font-size: 27px
+}
+
+input {
+    height: 25px;
+    width: 45px;
+}
+
+button {
+    margin-top: 20px;
+    height: 35px;
+    width: 70px;
+    background-color:rgb(34, 190, 131);
+    border-color: rgb(41, 117, 22);
+    font-weight: bold;
+    font-size: 15px
+}
+
+.container img {
+    height: 250px;
+}
+.error{
+    display: none;
+    margin-top: 40px;
+    margin-left: 150px;
+    justify-content: center;
+    background-color: rgba(20, 3, 3, 0.87);
+    padding: 15px 15px 15px 15px;
+    border-radius: 30px;
+    width: 250px;
+}
+
+.error p {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 250px;
+    color: red;
+}
+
+.sucess {
+    display: none;
+    margin-top: 40px;
+    margin-left: 150px;
+    justify-content: center;
+    background-color: rgba(20, 3, 3, 0.87);
+    padding: 15px 15px 15px 15px;
+    border-radius: 30px;
+    width: 250px;
+}
+
+.sucess p {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 250px;
+    font-size: 25px;
+    color: green;
+}
