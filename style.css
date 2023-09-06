@@ -5,27 +5,30 @@
 }
 
 body {
-    background-color: rgba(0, 155, 100, 0.2)
+    background-color: rgb(25, 89, 114);
+    color: rgb(19, 15, 15);
 }
 
 .container{ 
     display: flex;
     border-radius: 50px;
-    border: 10px solid rgb(109, 180, 180);
-    padding: 50px 100px 100px 40px;
+    padding: 50px 100px 100px 60px;
     margin: 150px auto;
     max-width: 640px;
     width: 100%;
-    background-color: rgba(0, 155, 0, 0.7);
+    background-color: rgb(206, 94, 94);
 }
 
 form {
     display: block;
+    width: 500px;
 }
 
 h1 {
     margin-bottom: 40px;
-    font-size: 40px
+    font-size: 30px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: bold;
 }
 
 input,
@@ -39,20 +42,28 @@ h2  {
 input {
     height: 25px;
     width: 45px;
+    border-radius: 6px;
 }
 
 button {
-    margin-top: 20px;
-    height: 35px;
-    width: 70px;
+    margin-top: 40px;
+    height: 200px;
+    width: 200px;
     background-color:rgb(34, 190, 131);
     border-color: rgb(41, 117, 22);
     font-weight: bold;
-    font-size: 15px
+    font-size: 15px;
+    border-radius: 7px;
 }
 
-.container img {
-    height: 250px;
+button img {
+    border-radius: 7px;
+}
+
+.container .error img,
+.container .sucess img {
+    height: 200px;
+    border-radius: 7px;
 }
 .error{
     display: none;
@@ -62,7 +73,7 @@ button {
     background-color: rgba(20, 3, 3, 0.87);
     padding: 15px 15px 15px 15px;
     border-radius: 30px;
-    width: 250px;
+    height: 300px;
 }
 
 .error p {
@@ -80,7 +91,8 @@ button {
     background-color: rgba(20, 3, 3, 0.87);
     padding: 15px 15px 15px 15px;
     border-radius: 30px;
-    width: 250px;
+    width: 200px;
+    height: 325px;
 }
 
 .sucess p {
